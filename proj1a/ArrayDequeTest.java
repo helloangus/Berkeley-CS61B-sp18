@@ -1,8 +1,8 @@
 import static org.junit.Assert.assertEquals;
 
-/** Performs some basic linked list tests. */
-public class LinkedListDequeTest {
-	
+// Performs some basic array deque test.
+public class ArrayDequeTest {
+    
 	/* Utility method for printing out empty checks. */
 	public static boolean checkEmpty(boolean expected, boolean actual) {
 		if (expected != actual) {
@@ -40,7 +40,7 @@ public class LinkedListDequeTest {
 		System.out.println("Make sure to uncomment the lines below (and delete this print statement).");
 		
 		/*
-		LinkedListDeque<String> lld1 = new LinkedListDeque<String>();
+		ArrayDeque<String> lld1 = new ArrayDeque<String>();
 
 		boolean passed = checkEmpty(true, lld1.isEmpty());
 
@@ -61,7 +61,8 @@ public class LinkedListDequeTest {
 		lld1.printDeque();
 
 		printTestStatus(passed);
-		*/
+        */
+		
 	}
 
 	/** Adds an item, then removes an item, and ensures that dll is empty afterwards. */
@@ -71,7 +72,7 @@ public class LinkedListDequeTest {
 
 		System.out.println("Make sure to uncomment the lines below (and delete this print statement).");
 		/*
-		LinkedListDeque<Integer> lld1 = new LinkedListDeque<Integer>();
+		ArrayDeque<Integer> lld1 = new ArrayDeque<Integer>();
 		// should be empty 
 		boolean passed = checkEmpty(true, lld1.isEmpty());
 
@@ -92,14 +93,15 @@ public class LinkedListDequeTest {
 		addIsEmptySizeTest();
 		addRemoveTest();
 
-		System.out.println("Running additional test.");
-		LinkedListDeque<Integer> lld = new LinkedListDeque<Integer>();
+        System.out.println("Running additional test.");
+		ArrayDeque<Integer> lld = new ArrayDeque<Integer>();
 		lld.addFirst(1);
 		lld.addFirst(2);
 		lld.removeFirst();
 		Integer actual = lld.get(0);
 		Integer exp = 1;
 		assertEquals(exp, actual);
-		System.out.println("Pass additional test.");
+        System.out.println("Pass additional test.");
+
 	}
-} 
+}
