@@ -1,6 +1,8 @@
+
 *
 !*/
 !**.java
+!**.py
 !**.txt
 !**.json
 !.expelimicate
@@ -48,3 +50,7 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.lnk
+
+
+!checkstyle-6.15-all.jar
+!61b_checks.xml

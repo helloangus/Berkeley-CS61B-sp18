@@ -1,0 +1,15 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/Development/Berkeley-CS61B-sp18/library-sp18/javalib/*.jar"
+    ],
+    "cSpell.words": [
+        "dcatenate",
+        "Flik",
+        "Hilfinger",
+        "melaniecebula",
+        "ptra"
+    ],
+    "todo-tree.tree.disableCompactFolders": true,
+    "todo-tree.tree.showBadges": true
+}
