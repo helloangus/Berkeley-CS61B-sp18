@@ -1,0 +1,10 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/Development/Berkeley-CS61B-sp18/library-sp18/javalib/*.jar"
+    ],
+    "cSpell.ignoreWords": [
+        "autograder",
+        "racecar"
+    ]
+}
